@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>기본 레이아웃</title>
+
+    <style>
+      @import url("https://fonts.googleapis.com/css2?family=Moirai+One&family=Noto+Sans+KR&display=swap");
+
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: "Noto Sans KR", sans-serif;
+      }
+
+      a {
+        text-decoration: none;
+        color: #333;
+      }
+
+      ul,
+      li {
+        list-style: none;
+      }
+
+      section {
+        color: #333;
+        padding: 150px 250px;
+      }
+
+      /* header */
+
+      header {
+        padding: 20px 250px;
+        /* color: #333; */
+        height: 80px;
+        background-color: #483f04;
+      }
+
+      header a {
+        color: #d1d7b1;
+      }
+
+      .logo {
+        float: left;
+        font-size: 24px;
+        font-weight: 900;
+      }
+
+      .menu {
+        float: right;
+        font-size: 18px;
+        font-weight: 900;
+      }
+
+      .menu li {
+        float: left;
+        margin-left: 50px;
+      }
+
+      /* header end */
+
+      /* 1st section */
+
+      .sec_1st {
+        padding: 207px 200px;
+        height: 850px;
+        background-image: url(https://designbase.co.kr/wp-content/uploads/2022/09/illustrator-basic-27-overview-1920x1080.jpg);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-attachment: fixed;
+      }
+
+      .sec_1st h2 {
+        font-size: 100px;
+        letter-spacing: -4.5px;
+        font-family: "Moirai One", cursive;
+        color: #483f04;
+      }
+
+      .sec_1st p {
+        margin-top: 15px;
+        font-size: 20px;
+        color: #8b6d0d;
+        letter-spacing: -1px;
+        line-height: 29px;
+      }
+
+      .more_btn {
+        width: 233px;
+        height: 66px;
+        margin-top: 79px;
+        padding: 17px 70px;
+        border: 1px solid #d1d7b1;
+        border-radius: 60px;
+        font-size: 22px;
+        font-weight: 900;
+        cursor: pointer;
+        color: #483f04;
+      }
+
+      .more_btn:hover {
+        background-color: #483f04;
+        border-style: none;
+        color: #d1d7b1;
+      }
+
+      /* 1st section end */
+
+      /* 2nd section */
+
+      .sec_2nd h2 {
+        font-size: 70px;
+        margin: 157px 0 38px 0;
+      }
+
+      .gray_box {
+        margin: 0 auto;
+        height: 571px;
+        margin-bottom: 222px;
+        /* width: 85%; */
+      }
+
+      .gray_box li {
+        width: 380px;
+        height: 571px;
+        float: left;
+        /* background-color: #eee; */
+        background-image: url(https://designbase.co.kr/wp-content/uploads/2022/09/illustrator-basic-27-overview-1920x1080.jpg);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        margin-right: 50px;
+      }
+
+      .gray_box li:nth-child(3) {
+        margin-right: 0;
+      }
+
+      /* 3rd section */
+      .sec_3rd {
+        height: 500px;
+        background-color: #483f04;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <div class="logo">
+        <a href="#"> LOGO </a>
+      </div>
+
+      <ul class="menu">
+        <li>
+          <a href="#"> menu </a>
+        </li>
+        <li>
+          <a href="#"> menu </a>
+        </li>
+        <li>
+          <a href="#"> menu </a>
+        </li>
+        <li>
+          <a href="#"> menu </a>
+        </li>
+        <li>
+          <a href="#"> menu </a>
+        </li>
+      </ul>
+    </header>
+
+    <section class="sec_1st">
+      <main>
+        <h2>THIS IS TITLE</h2>
+        <p>
+          여기에는 문단을 넣어주세요 여기에는 문단을 넣어주세요<br />
+          여기에는 문단을 넣어주세요
+        </p>
+      </main>
+
+      <div class="more_btn">MORE +</div>
+    </section>
+
+    <section class="sec_2nd">
+      <main>
+        <h2>THIS IS TITLE</h2>
+
+        <ul class="gray_box">
+          <li></li>
+          <li></li>
+          <li></li>
+        </ul>
+      </main>
+    </section>
+
+    <section class="sec_3rd"></section>
+  </body>
+</html>
